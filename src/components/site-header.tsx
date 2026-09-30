@@ -74,15 +74,15 @@ export function SiteHeader({ variant = "overlay" }: SiteHeaderProps) {
           className="relative z-10 flex shrink-0 items-center"
           onClick={() => setMenuOpen(false)}
         >
-          {/* Light wordmark for dark hero; dark wordmark on solid scrolled bar */}
+          {/* Colorful mark on solid light bar; inverted white mark over dark hero */}
           <Image
-            src={solid ? "/images/logo-hanabi-dark.png" : "/images/logo-hanabi.png"}
+            src="/images/logo-hanabi.png"
             alt={site.name}
             width={475}
             height={86}
             priority
             className={cn(
-              "h-8 w-auto transition-opacity duration-300 sm:h-9 md:h-10",
+              "h-8 w-auto transition-[filter] duration-300 sm:h-9 md:h-10",
               solid ? "" : "brightness-0 invert",
             )}
           />
