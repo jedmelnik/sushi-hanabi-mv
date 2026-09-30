@@ -70,7 +70,7 @@ export const galleryImages = [
   },
   {
     src: "/images/platter.jpg",
-    alt: "Shared sushi platter for the table",
+    alt: "Decorative katana display inside the dining room",
   },
   {
     src: "/images/sashimi.jpg",

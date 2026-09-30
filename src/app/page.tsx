@@ -72,8 +72,8 @@ export default function HomePage() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
             <Image
-              src="/images/platter.jpg"
-              alt="Shared sushi platter at Hanabi"
+              src="/images/temaki.jpg"
+              alt="Hand rolls and sushi prepared at Hanabi"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
